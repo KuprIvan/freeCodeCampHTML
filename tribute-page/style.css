@@ -7,3 +7,21 @@
 html {
   font-size: 10px;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 900px;
+}

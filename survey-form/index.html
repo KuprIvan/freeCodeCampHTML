@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Survey Form</title>
+</head>
+<body>
+  <main id="main">
+    <section id="heading">
+      <h1 id="title">
+        freeCodeCamp Survey Form
+      </h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </section>
+    <section id="heading">
+     <form action="#" id="survey-form">
+      <label id="name-label" for="name">name: </label>
+      <input type="text" id="name" placeholder="enter your name" required>
+      <label id="email-label" for="email">email: </label>
+      <input type="email" id="email" placeholder="enter your email" required>
+      <label id="number-label" for="number">age (optional): </label>
+      <input type="number" id="number" placeholder="enter your age" min="10" max="99">
+      <select id="dropdown">
+        <option value="1" >1</option>
+        <option value="2">2</option>
+        <option value="3" selected>3</option>
+        <option value="4">4</option>
+      </select>
+      <input type="checkbox" value="test">
+      <input type="checkbox" value="test">
+      <label for="">1</label>
+      <input type="radio" name="test" id="radio_1" value="1">
+      <label for="">2</label>
+      <input type="radio" name="test" id="radio_2" value="2">
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <input type="submit" id="submit" value="submit">
+     </form>
+    </section>
+  </main>
+</body>
+</html>

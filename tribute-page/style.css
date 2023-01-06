@@ -8,9 +8,15 @@ html {
   font-size: 10px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+
+
+body {
+  font-family: monospace;
+}
+
+.section {
+  background: #eee;
+  padding: 20px;
 }
 
 .wrapper {
@@ -24,4 +30,63 @@ img {
   justify-content: space-around;
   align-items: center;
   max-width: 900px;
+}
+
+#title {
+  font-size: 2.6rem;
+  line-height: 32px;
+}
+#title + p {
+  font-size: 1.6rem;
+}
+
+.hero-img {
+  margin-top: 20px;
+  padding: 10px;
+  background: #fff;
+}
+#img-caption {
+  margin-top: 20px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+}
+.tribute-info {
+  margin-top: 20px;
+  max-width: 500px;
+}
+.tribute-item {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+.tribute-item > span {
+  font-weight: 700;
+}
+.tribute-cite {
+  margin-top: 20px;
+  max-width: 400px;
+  font-size: 1.2rem;
+}
+.link-container {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.tribute-link {
+  font-weight: 700;
+  font-size: 1.3rem;
+  opacity: .7;
+}
+
+#image  {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
